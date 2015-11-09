@@ -375,9 +375,9 @@ function updateRAS4() {
 
 $(document).ready(function() {
 
-  $('#myForm').submit(function() {
+  $('#form').submit(function() {
     // get all the inputs into an array.
-    var $inputs = $('#myForm :input');
+    var $inputs = $('#form :input');
 
     // not sure if you wanted this, but I thought I'd add it.
     // get an associative array of just the values.
