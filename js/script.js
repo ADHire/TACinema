@@ -372,3 +372,7 @@ function updateRAS4() {
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
+function random () {
+  console.log("random");
+}
