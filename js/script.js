@@ -373,6 +373,20 @@ function updateRAS4() {
 
 }
 
-function random () {
-  console.log("random");
-}
+$(document).ready(function() {
+
+  $('#myForm').submit(function() {
+    // get all the inputs into an array.
+    var $inputs = $('#myForm :input');
+
+    // not sure if you wanted this, but I thought I'd add it.
+    // get an associative array of just the values.
+    var values = {};
+    $inputs.each(function() {
+        values[this.name] = $(this).val();
+    });
+
+})
+
+
+});
