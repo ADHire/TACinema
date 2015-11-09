@@ -5,6 +5,7 @@ function showFormRFS1() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRFS2() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -12,6 +13,7 @@ function showFormRFS2() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRFS3() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -19,6 +21,7 @@ function showFormRFS3() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRFS4() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -26,6 +29,7 @@ function showFormRFS4() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRES1() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -33,6 +37,7 @@ function showFormRES1() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRES2() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -40,6 +45,7 @@ function showFormRES2() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRES3() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -47,6 +53,7 @@ function showFormRES3() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRES4() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -54,6 +61,7 @@ function showFormRES4() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRDS1() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -61,6 +69,7 @@ function showFormRDS1() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRDS2() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -68,6 +77,7 @@ function showFormRDS2() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRDS3() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -75,6 +85,7 @@ function showFormRDS3() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRDS4() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -82,6 +93,7 @@ function showFormRDS4() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRCS1() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -89,6 +101,7 @@ function showFormRCS1() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRCS2() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -96,6 +109,7 @@ function showFormRCS2() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRCS3() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -103,6 +117,7 @@ function showFormRCS3() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRCS4() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -110,6 +125,7 @@ function showFormRCS4() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRBS1() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -117,6 +133,7 @@ function showFormRBS1() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRBS2() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -124,6 +141,7 @@ function showFormRBS2() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRBS3() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -131,6 +149,7 @@ function showFormRBS3() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRBS4() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -138,6 +157,7 @@ function showFormRBS4() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRAS1() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -145,6 +165,7 @@ function showFormRAS1() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRAS2() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -152,6 +173,7 @@ function showFormRAS2() {
   document.getElementById('form').style.display="block";
 
 }
+
 function showFormRAS3() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -181,138 +203,161 @@ function updateRFS2() {
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRFS3() {
   var img = document.getElementById('rfs3');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRFS4() {
   var img = document.getElementById('rfs4');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRES1() {
   var img = document.getElementById('res1');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRES2() {
   var img = document.getElementById('res2');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRES3() {
   var img = document.getElementById('res3');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRES3() {
   var img = document.getElementById('res3');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRES4() {
   var img = document.getElementById('res4');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRDS1() {
   var img = document.getElementById('rds1');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRDS2() {
   var img = document.getElementById('rds2');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRDS3() {
   var img = document.getElementById('rds3');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRDS4() {
   var img = document.getElementById('rds4');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRCS1() {
   var img = document.getElementById('rcs1');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRCS2() {
   var img = document.getElementById('rcs2');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRCS3() {
   var img = document.getElementById('rcs3');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRCS4() {
   var img = document.getElementById('rcs4');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRBS1() {
   var img = document.getElementById('rbs1');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRBS2() {
   var img = document.getElementById('rbs2');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRBS3() {
   var img = document.getElementById('rbs3');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRBS4() {
   var img = document.getElementById('rbs4');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRAS1() {
   var img = document.getElementById('ras1');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRAS2() {
   var img = document.getElementById('ras2');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRAS3() {
   var img = document.getElementById('ras3');
   var src = img.getAttribute('src');
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
+
 function updateRAS4() {
   var img = document.getElementById('ras4');
   var src = img.getAttribute('src');
