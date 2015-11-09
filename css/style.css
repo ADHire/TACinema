@@ -49,6 +49,8 @@ body {
 	background-color: none;
 	text-align: center;
 	color: #fff;
+	position: relative;
+	margin-top: 100px;
 }
 
 #claimed img {
