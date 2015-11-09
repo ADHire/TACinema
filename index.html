@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cinema</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+	<body class="jumbotron">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h1>Team Alpha Cinema<br></h1>
+					<div id="nav">
+						<p><a href="#">Home</a><p/>
+						<p><a href="#">Upcoming Shows</a></p>
+						<p><a href="#">birthday parties</a></p>
+						<p><a href="#">special screenings</a></p>
+					</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 seating">
+					<input type="image" name="seat" class="shrink" id="rfs1" onclick="showFormRFS1()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rfs2" onclick="showFormRFS2()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rfs3" onclick="showFormRFS3()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rfs4" onclick="showFormRFS4()" src= images/greensquare.png>
+				</div>
+				<div class="col-xs-12 seating">
+					<input type="image" name="seat" class="shrink" id="res1" onclick="showFormRES1()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="res2" onclick="showFormRES2()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="res3" onclick="showFormRES3()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="res4" onclick="showFormRES4()" src= images/greensquare.png>
+				</div>
+				<div class="col-xs-12 seating">
+					<input type="image" name="seat" class="shrink" id="rds1" onclick="showFormRDS1()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rds2" onclick="showFormRDS2()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rds3" onclick="showFormRDS3()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rds4" onclick="showFormRDS4()" src= images/greensquare.png>
+				</div>
+				<div class="col-xs-12 seating">
+					<input type="image" name="seat" class="shrink" id="rcs1" onclick="showFormRCS1()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rcs2" onclick="showFormRCS2()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rcs3" onclick="showFormRCS3()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rcs4" onclick="showFormRCS4()" src= images/greensquare.png>
+				</div>
+				<div class="col-xs-12 seating">
+					<input type="image" name="seat" class="shrink" id="rbs1" onclick="showFormRBS1()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rbs2" onclick="showFormRBS2()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rbs3" onclick="showFormRBS3()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="rbs4" onclick="showFormRBS4()" src= images/greensquare.png>
+				</div>
+				<div class="col-xs-12 seating">
+					<input type="image" name="seat" class="shrink" id="ras1" onclick="showFormRAS1()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="ras2" onclick="showFormRAS2()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="ras3" onclick="showFormRAS3()" src= images/greensquare.png>
+					<input type="image" name="seat" class="shrink" id="ras4" onclick="showFormRAS4()" src= images/greensquare.png>
+				</div>
+			</div>
+
+			<div class="col-xs-12 instructions">
+				<p>Thank you for choosing the Team Alpha Cinema. To get started, please refer to the seating chart above.</p>
+				<p>Available seats are displayed as <img class="shrink2" src="images/greensquare.png"></p>
+				<p>Unavailable seats are displayed as <img class="shrink2" src="images/redsquare.png"></p>
+				<p>Once you have found your seat, simply select the seat and fill out the form below. We need your name and e-mail address to send you the confirmation of selection.</p>
+			</div>
+
+			<div style="display:none" id="form" class="col-xs-12 form">
+				<form>
+					Name: <input type="text"/>
+					Email: <input type="text"/><br><br>
+					<input type="button" class="btn btn-success" value="submit" id="change" onclick=""/>
+				</form>
+			</div>
+
+
+
+		</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="somefile.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

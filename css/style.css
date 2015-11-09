@@ -1,0 +1,92 @@
+
+body {
+	background-color: none;
+}
+
+#nav a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+
+#nav p {
+	display: inline;
+}
+
+.jumbotron {
+	background-image:url('http://megawallpapershd.com/wallpapers/l/1920x1080/63/red_curtain_background_1920x1080_62220.jpg');
+	height: 1080px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.page-header {
+	background-color: none;
+	text-align: center;
+	color: #fff;
+}
+
+.page-header h1 {
+	-webkit-text-fill-color: #fff;
+  	-webkit-text-stroke-color: #000;
+  	-webkit-text-stroke-width: 1.00px;
+  	font-weight: bold;
+}
+
+.row {
+	text-align: center;
+}
+
+.seating {
+	margin: 10px;
+}
+
+.instructions {
+	background-color: none;
+	text-align: center;
+	color: #fff;
+}
+
+#claimed img {
+	filter
+}
+
+.form {
+	background-color: none;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 80px;
+}
+
+.form h1 {
+	-webkit-text-fill-color: #fff;
+  	-webkit-text-stroke-color: #000;
+  	-webkit-text-stroke-width: 1.00px;
+  	font-weight: bold;
+
+}
+
+
+
+
+
+
+.shrink {
+	height: 60px;
+	width: 60px;
+	border: solid 4px black;
+}
+
+.shrink2{
+	height: 15px;
+	width: 15px;
+	border: solid 2px black;
+}
+
+.btn-success {
+	background-color: #008000;
+}
