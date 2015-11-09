@@ -1,4 +1,3 @@
-
 body {
 	background-color: none;
 }
@@ -23,11 +22,27 @@ body {
 }
 
 
-
 .page-header {
 	background-color: none;
 	text-align: center;
 	color: #fff;
+}
+
+.firstLetter {
+	font-family: Great Vibes;
+	font-size: 2em;
+	color: #ccc;
+}
+
+h1 {
+	font-family: Great Vibes;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.mask {
+	height: 80px;
+	width: 80px;
 }
 
 .page-header h1 {
@@ -51,6 +66,10 @@ body {
 	color: #fff;
 	position: relative;
 	margin-top: 100px;
+}
+
+.instructions p {
+	font-size: 12px;
 }
 
 #claimed img {
