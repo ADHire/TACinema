@@ -190,6 +190,14 @@ function showFormRAS4() {
 
 }
 
+
+
+
+//Above=get elements to change ... Below=changes from green to red
+
+
+
+
 function updateRFS1() {
   var img = document.getElementById('rfs1');
   var src = img.getAttribute('src');
