@@ -10,14 +10,6 @@ body {
 	text-transform: uppercase;
 }
 
-#this {
-	text-decoration: none;
-	font-size: 16px;
-	font-weight: bold;
-	padding: 14px 10px;
-	background-color: rgba(255, 0, 0, 0.5);
-}
-
 #nav p {
 	display: inline;
 }

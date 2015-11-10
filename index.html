@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="jquery-1.11.3.js"></script>
 </head>
 	<body class="jumbotron">
 		<div class="container-fluid">
@@ -14,12 +13,12 @@
 				<h1><span class="firstLetter">T</span>eam Alpha Cinema<br></h1>
 					<img class="mask" src="images/masks.png">
 					<div id="nav">
-						<p><a id="one" href="#">Home</a><p/>
-						<p><a id="two" href="#">Upcoming Shows</a></p>
-						<p><a id="three" href="#">birthday parties</a></p>
-						<p><a id="four" href="#">special screenings</a></p>
+						<p><a href="#">Home</a><p/>
+						<p><a href="#">Upcoming Shows</a></p>
+						<p><a href="#">birthday parties</a></p>
+						<p><a href="#">special screenings</a></p>
 					</div>
-			
+			</div>
 		
 			<div class="row">
 				<div class="col-xs-12 seating">
@@ -68,9 +67,9 @@
 			</div>
 
 			<div style="display:none" id="form" class="col-xs-12 form">
-				<form id="thisForm">
-					<label>Name:</label> <input type="text">
-					<label>Email:</label> <input type="text" ><br><br>
+				<form>
+					<label>Name:</label> <input type="text"/>
+					<label>Email:</label> <input type="text"/><br><br>
 					<input type="reset" class="btn btn-success" value="submit" id="change" onclick=""/>
 				</form>
 			</div>
@@ -78,7 +77,7 @@
 
 
 		</div>
-	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
