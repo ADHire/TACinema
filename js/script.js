@@ -1,3 +1,34 @@
+$(document).ready(function() {
+
+$(".shrink").hover(function() {
+    $(this).fadeTo(100, 0.7);
+
+    }, function(){
+      $(this).fadeTo(0, 1.0 );
+    });
+
+$("a").bind("mouseover", function(){
+            var color  = $(this).css("background-color");
+
+            $(this).css("background", "red");
+
+            $(this).bind("mouseout", function(){
+                $(this).css("background", color);
+            })    
+        })  
+
+});
+
+// $('.row').hover(function() {
+
+  //    $(this).fadeTo(0, 0.8);
+  //  }, function(){
+  //    $(this).fadeTo(0, 1.0);
+
+  // });
+
+
+
 function showFormRFS1() {
   var button = document.getElementById('change');
   var onclick = button.getAttribute('onclick');
@@ -372,19 +403,6 @@ function updateRAS4() {
   var src = img.setAttribute('src', 'images/redsquare.png')
 
 }
-
-$(document).ready(function() {
-
-  var grab = $('.shrink');
-
-$(grab).hover(function() {
-    $(grab).fadeOut( 100, 0.5 );
-
-    } function(){$(this).fadeIn( 0, 1.0 );
-    });
-
-
-});
 
 
 
