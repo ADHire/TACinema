@@ -375,19 +375,29 @@ function updateRAS4() {
 
 $(document).ready(function() {
 
-  $('#thisForm').submit(function() {
-    // get all the inputs into an array.
-    var $inputs = $('#thisForm:input');
+  var grab = $('.shrink');
 
-    // not sure if you wanted this, but I thought I'd add it.
-    // get an associative array of just the values.
-    var values = {};
-    $inputs.each(function() {
-        values[this.name] = $(this).val();
+$(grab).hover(function() {
+    $(grab).fadeOut( 100, 0.5 );
+
+    } function(){$(this).fadeIn( 0, 1.0 );
     });
-    console.log(values);
-
-})
 
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
