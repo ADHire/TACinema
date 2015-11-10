@@ -1,59 +1,29 @@
 $(document).ready(function() {
 
-// $(".shrink").hover(function() {
-//     $(this).fadeTo(100, 0.7);
-
-//     }, function(){
-//       $(this).fadeTo(0, 1.0 );
-//     });
 
 $("a").bind("mouseover", function(){
   var color  = $(this).css("background-color");
 
   $(this).css("background", "red");
 
-
   $(this).bind("mouseout", function(){ 
     $(this).css("background", color);
     })    
-  }) 
+  }); 
 
 $("a").bind("mouseover", function(){
   var color  = $(this).css("background-color");
 
   $(this).animate({'opacity' : '0.7'});
 
-
   $(this).bind("mouseout", function(){ 
     $(this).animate({'opacity' : '1.0'});
     })    
-  })  
+  });  
 
-$('[date-toggle="popover"]').popover(
-          
-  );
+
 
 });
-
-// $('.row').hover(function() {
-
-//      $(this).fadeTo(0, 0.8);
-//    }, function(){
-//      $(this).fadeTo(0, 1.0);
-
-//   });
-
-
-
-//   $(grab).hover(function(){
-//     grab.attr('id');
-//     grab.attr('', 'hover');
-//   }, function (){
-//     grab.attr('id');
-//     grab.attr('id', 'this')
-
-//   });
-
 
 
 
