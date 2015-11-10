@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
-$(".shrink").hover(function() {
-    $(this).fadeTo(100, 0.7);
+// $(".shrink").hover(function() {
+//     $(this).fadeTo(100, 0.7);
 
-    }, function(){
-      $(this).fadeTo(0, 1.0 );
-    });
+//     }, function(){
+//       $(this).fadeTo(0, 1.0 );
+//     });
 
 $("a").bind("mouseover", function(){
             var color  = $(this).css("background-color");
