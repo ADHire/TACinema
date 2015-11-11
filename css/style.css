@@ -10,23 +10,15 @@ body {
 	text-transform: uppercase;
 }
 
-#this {
-	text-decoration: none;
-	font-size: 16px;
-	font-weight: bold;
-	padding: 14px 10px;
-	background-color: rgba(255, 0, 0, 0.5);
-}
-
 #nav p {
 	display: inline;
 }
 
 .jumbotron {
-	background-image:url('http://megawallpapershd.com/wallpapers/l/1920x1080/63/red_curtain_background_1920x1080_62220.jpg');
-	height: 1080px;
+	:// background-image:url('http://megawallpapershd.com/wallpapers/l/1920x1080/63/red_curtain_background_1920x1080_62220.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: #643434;
 }
 
 
