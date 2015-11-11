@@ -93,6 +93,10 @@ h1 {
 	color: white;
 }
 
+#name {
+	margin-bottom: 10px;
+}
+
 .shrink {
 	height: 60px;
 	width: 60px;
